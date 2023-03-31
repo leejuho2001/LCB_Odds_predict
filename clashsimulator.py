@@ -113,6 +113,7 @@ def get_skill_prob_list(_skill1, _skill2, _clash_repeat=100, _mentality_gap_rev 
             skill2 = [base_value2, coin_count2, coin_value2, y[q]]
             z[-1].append(get_mean_probability(skill1, skill2, clash_repeat))
             cnt+=1
+          
 
     # x,y에 해당하는 확률을 z에 넣어줌. (clash_repeat만큼 반복했을때 얻어지는 확률)
     
